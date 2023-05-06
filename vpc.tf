@@ -1,7 +1,6 @@
-module "vpc" {
-    source  = "terraform-google-modules/network/google"
-    version = "3.4.0"
-
+module "network" {
+  source  = "app.terraform.io/hinjc/network/google"
+  version = "3.4.0"
     project_id   = var.project
     network_name = "gaurav-network"
     routing_mode = "GLOBAL"
