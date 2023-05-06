@@ -2,7 +2,7 @@ module "network" {
   source  = "app.terraform.io/hinjc/network/google"
   version = "3.4.0"
     project_id   = var.project
-    network_name = "gaurav-network"
+    network_name = "gaurav-network2"
     routing_mode = "GLOBAL"
 
     subnets = [
